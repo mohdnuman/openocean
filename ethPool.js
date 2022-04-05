@@ -40,8 +40,8 @@ async function getBalance() {
 
   const percentage=(LPtokensRecieved/totalSupplyLP)*100;
 
-  const eth=(percentage*0.381877).toFixed(2);
-  const ooe=(percentage*12200).toFixed(2);
+  const eth=(percentage*0.377877).toFixed(2);
+  const ooe=(percentage*12060).toFixed(2);
 
 
   console.log('ETH:',eth);
