@@ -45,7 +45,7 @@ async function getBalance() {
 
 
   console.log('ETH:',eth);
-  console.log('OOE',ooe);
+  console.log('OOE:',ooe);
   console.log('rewards:',rewards);
 
 

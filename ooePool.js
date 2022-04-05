@@ -40,7 +40,7 @@ async function getBalance() {
   ooe=(ooe/(10**decimals)).toFixed(2);
   rewards=(rewards/(10**decimals)).toFixed(2);
 
-  console.log('OOE',ooe);
+  console.log('OOE:',ooe);
   console.log('rewards:',rewards);
 
 

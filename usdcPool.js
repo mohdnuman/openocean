@@ -37,7 +37,7 @@ async function getBalance() {
   const ooe = (percentage * 21184).toFixed(2);
 
   console.log("USDC:", usdc);
-  console.log("OOE", ooe);
+  console.log("OOE:", ooe);
   console.log("rewards:", rewards);
 }
 
