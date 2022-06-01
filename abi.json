@@ -1,20 +1,5 @@
 [
-  {
-    "inputs": [
-      {
-        "internalType": "contract IERC20",
-        "name": "_stakeToken",
-        "type": "address"
-      },
-      {
-        "internalType": "contract IERC20",
-        "name": "_rewardToken",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
-  },
+ 
   {
     "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "name": "userCollateral",
@@ -35,6 +20,58 @@
     "inputs": [],
     "name": "totalCollateral",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "decimals",
+    "outputs": [
+        {
+            "name": "",
+            "type": "uint8"
+        }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [],
+    "name": "symbol",
+    "outputs": [
+        {
+            "name": "",
+            "type": "string"
+        }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+  "inputs": [],
+  "name": "getReserves",
+  "outputs": [
+    { "internalType": "uint112", "name": "_reserve0", "type": "uint112" },
+    { "internalType": "uint112", "name": "_reserve1", "type": "uint112" },
+    {
+      "internalType": "uint32",
+      "name": "_blockTimestampLast",
+      "type": "uint32"
+    }
+  ],
+  "stateMutability": "view",
+  "type": "function"
+},
+  {
+    "inputs": [],
+    "name": "stakeToken",
+    "outputs": [
+      { "internalType": "contract IERC20", "name": "", "type": "address" }
+    ],
     "stateMutability": "view",
     "type": "function"
   }
